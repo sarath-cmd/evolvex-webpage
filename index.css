@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*--------for the entire page ---------*/
+.nav{
+    display: block;
+}
+li {
+   display: inline;
+   padding: 10px;
+   color:aliceblue;
+}
+li a{
+   text-decoration: none;
+   color:aliceblue;
+}
+ul{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 62%;
+    display: inline;
+}
+li a:hover{
+    color:rgb(21, 21, 21);
+    cursor: pointer;
+}
+/*-------------for the navigation bar-----------*/
+.Section{
+    background-image: url(banner.jpeg);
+    height: 705px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.page a{
+    text-decoration:none;
+}
+/*----------------for the background image----------------*/
+
+.page p{
+    padding-top: 5px;
+    font-size: 50px;
+    padding-left: 55%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page a{
+    margin-left: 55%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(247, 240, 240);
+}
+.page a:hover{
+    cursor: pointer;
+    color:rgb(250, 54, 24);
+}
+.page h1{
+    padding-left: 100px;
+    font-size: 30px;
+    color: #000;
+}
+/*--------for the text & link on the background image-------*/
+
+.ABOUT{
+    background-color: #3e3b3b;
+    height: 500px;
+    margin-bottom: 5px;
+}
+.ABOUT img{
+    float: right;
+    height: 500px;
+    width: 800px;
+}
+.aboutinfo h1{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 40px;
+    color: azure;
+}
+.aboutinfo p{
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    display: flex;
+    padding-right: 50px;
+    color: aliceblue;
+}
+.aboutinfo a{
+    padding-left: 50px;
+    font-size: 25px;
+    color: blanchedalmond;
+}
+/*-----------------------for the about section---------------*/
+
+.models1 {
+    height: 80vh;
+    background-color:#BBA494;
+    margin-bottom: 5px;
+}
+.models1 h1{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.model1{
+    width: 700px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    height: 450px;
+    float: left;
+    display: inline;
+}
+.models1 h2{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.models1 h3{
+    display: flex;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.models1 p{
+    padding-left: 90px;
+    display: flex;
+    font-size: 20px;
+}
+.models1 button{
+    margin-left: 50px;
+    display: flex;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+}
+.models1 a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+.models1 a:hover{
+    color: rgb(81, 225, 65);
+    text-decoration: none;
+}
+/*--------------for the model 1 page-----------*/
+
+.models2{
+    height: 75vh;
+    background-color: burlywood;
+    margin-bottom: 5px;
+}
+.models2 img{
+    width: 825px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 40px;
+    height: 520px;
+    padding-bottom: 20px;
+    float: right;
+    display: inline;
+}
+.models2 h2{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.models2 h3{
+    display: flex;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.models2 p{
+    padding-left: 90px;
+    display: flex;
+    font-size: 20px;
+}
+.models2 button{
+    background-color: #000;
+    margin-left: 50px;
+    display: flex;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.models2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.models2 a:hover{
+    color: rgb(65, 225, 65);
+    text-decoration: none;
+}
+/*----------------for the model 2 section------------*/
+
+.footer{
+    background-color:#3E3B3B;
+    height: 50vh;
+}
+.footer p{
+    text-align: center;
+    color:#fff;
+    font-size: x-large;
+}
+/*--------for the logo and bottom contact section----------*/

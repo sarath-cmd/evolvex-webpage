@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 50px;
+    height: max-content;
+}
+.back{
+    height: 709px;
+    display: inline;
+    display: flex;
+    background: linear-gradient(to top, rgb(193, 189, 189), 70%, rgb(38, 211, 227));
+}
+/*-- this is for the background--*/
+
+form {
+    align-items: center;
+    justify-content: center;
+    margin-top: 35vh;
+    text-align: center;
+    vertical-align: middle;
+}
+/*-----this is the form page-------*/
+.name1{
+    display: flex;
+    display: block;
+    margin-left: 352px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.email1{
+    display: flex;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    align-items: center;
+}
+.message1{
+    display: flex;
+    margin-left: 330px;
+    margin-bottom: 10px;
+    align-items: center;
+    align-items: center;
+    display: block;
+}
+button{
+    margin-left: 400px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 162px;
+    padding-right: 165px;
+}
+/*------for the navigation section----------*/
+
+
+ul{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+li{
+    padding-right: 10px;
+    display: inline;
+    text-decoration: none;
+}
+a{
+    padding-top: 100px;
+    text-decoration: none;
+    font-size:medium;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+a:hover{
+    transform: none;
+    transition: 0.5s;
+    font-size: x-large;
+}

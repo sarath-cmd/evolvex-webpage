@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    margin-top: 200px;
+    text-align: center;
+    vertical-align:middle;
+}
+p{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100px;
+}
+.nav {
+    height: 100px;
+    background-color:#000;
+}
+
+.logo p{
+    width: 250px;
+    display: inline-block;
+    color: darkgrey;
+    font-weight: 50px;
+    font-size: x-large;
+    font-family: fantasy;
+    padding-top: 34px;
+    padding-left: 85px;
+    cursor: pointer;
+}
+
+.nav ul{
+    width: 100px;
+    display: inline;
+    padding-left: 50%;
+    text-decoration: none;
+}
+.nav li{
+    display: inline;
+    padding-left: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+}
+.nav li a:hover{
+    color: white;
+    transition: 0.5ms;
+    font-size: x-large;
+}

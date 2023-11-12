@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    padding-left: 20px;
+}
+body{
+    background-color:gray;
+}
+
+.nav {
+    height: 100px;
+    background-color:#000;
+}
+
+.logo p{
+    width: 250px;
+    display: inline-block;
+    color: darkgrey;
+    font-weight: 50px;
+    font-size: x-large;
+    font-family: fantasy;
+    padding-top: 34px;
+    padding-left: 85px;
+    cursor: pointer;
+}
+
+.nav ul{
+    width: 100px;
+    display: inline;
+    padding-left: 50%;
+    text-decoration: none;
+}
+.nav li{
+    display: inline;
+    padding-left: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+}
+.nav li a:hover{
+    color: white;
+    transition: 0.5ms;
+    font-size: x-large;
+}
+/*-----------this whole section for the navigation--------------*/
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+/*----------for tbe our accessories section---------*/
+
+.category button{
+    cursor: pointer;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px
+}
+.category{
+    padding-left: 80px;
+}
+.category button a{
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200px;
+}
+/*-------this is for the button for choosing the gender in the page-------------*/
+
+h3{
+    padding-left: 20px;
+}
+/*-------this is for all the sub headings like belt,cap etc------------*/
+
+.belt1{
+    float: left;
+    display: inline;
+}
+.b1{
+    display: inline;
+}
+.belt1 img{
+    cursor: pointer;
+    display: inline;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    border: #000;
+    border-style:solid;
+    border-width: 5px;
+    margin-right: 30px;
+}
+.b1 b{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 150px;
+    display: inline;
+}
+.b1 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+.b1 button{
+    display: inline;
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*------this for the first belt in the page----------*/
+/*------this same code can be used for all the images that need to come in straight below
+by using the same class name of the above code------------*/ 
+
+.belt2{
+    float: right;
+    display: inline;
+}
+.b2{
+    display: inline;
+}
+.belt2 img{
+    cursor: pointer;
+    display: inline;
+    height: 250px;
+    width: 250px;
+    border: #000;
+    border-style:solid;
+    border-width: 5px;
+    margin-right: 30px;
+}
+.b2 b{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 50px;
+    display: inline;
+}
+.b2 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+.b2 button{
+    display: inline;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*-------this for the second belt in the page---------*/
+/*------this same code can be used for all the images that need to come in straight below
+by using the same class name of the above code------------*/ 
+
+.watch1{
+    display: inline-block;
+}
+.watch1 img{
+    cursor: pointer;
+    margin-right: 50px;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+}
+.w1 b{
+    margin-left: 150px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+.w1 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+.w1 button{
+    display: inline;
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*----------this for the all first images like belt1,watch1 etc on the page for both men and women--------*/
+/*----used this code by using the same class name in the women and commen section to optmise code--------*/
+/*-----similarly same class name is used in multiple section for code optimizing----------------------*/
+.watch2{
+    display: inline-block;
+    margin-right: 75px;
+}
+.w2{
+    display: inline;
+}
+.watch2 img{
+    cursor: pointer;
+    display: inline;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    border: #000;
+    border-style:solid;
+    border-width: 5px;
+    margin-right: 30px;
+}
+.w2 b{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 50px;
+    display: inline;
+}
+.w2 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+.w2 button{
+    display: inline;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*-------------this for the second images in the page for both men and women------------*/
+/*-----------this for the second image like watch2,bracelet2 etc i have not used in all place but in 
+some places in the women section and in commen the same class name is used to optmise the code----------*/
+
+.watch3{
+    margin-right: 200px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.watch3 img{
+    cursor: pointer;
+    margin-right: 50px;
+    height: 250px;
+    width: 250px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+}
+.w3 b{
+    margin-right: 200px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+.w3 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 200px;
+}
+.w3 button{
+    display: inline;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------this is for the third watch in the page for both men and women-----------*/
+/*-----------this for the third image like watch2,bracelet2 etc i have not used in all place but in 
+some places in the women section and in commen the same class name is used to optmise the code----------*/
+
+.bracelet1{
+    display: inline;
+    float: left;
+    margin-right: 20px;
+}
+.bracelet1 img{
+    cursor: pointer;
+    margin-right: 30px;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+}
+.br1 b{
+    margin-left: 150px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+.br1 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+.br1 button{
+    display: inline;
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*----------this is for the first bracelet in the page for both men and women-------------*/
+/*-----------this for the first image like watch1,bracelet1 etc i have not used in all place but in 
+some places in the women section and in commen the same class name is used to optmise the code----------*/
+
+.bracelet2{
+    display: inline-block;
+    margin-right: 75px;
+}
+.br2{
+    display: inline;
+}
+.bracelet2 img{
+    cursor: pointer;
+    display: inline;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    border: #000;
+    border-style:solid;
+    border-width: 5px;
+    margin-right: 30px;
+}
+.br2 b{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 50px;
+    display: inline;
+}
+.br2 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+.br2 button{
+    display: inline;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------this is for the second bracelet in the page for both men and women---------*/
+/*------this same code can be used for all the images that need to come in straight below
+by using the same class name of the above code------------*/ 
+
+.bracelet3{
+    margin-right: 200px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.bracelet3 img{
+    cursor: pointer;
+    margin-right: 50px;
+    height: 250px;
+    width: 250px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+}
+.br3 b{
+    margin-right: 200px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+.br3 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 200px;
+}
+.br3 button{
+    display: inline;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*---------this is for the third bracelet for both men and women-------*/
+/*------this same code can be used for all the images that need to come in straight below
+by using the same class name of the above code------------*/ 
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 70PX;
+}
+h4 a{
+    color: #000;
+    text-decoration: none;
+}
